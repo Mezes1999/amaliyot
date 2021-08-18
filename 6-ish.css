@@ -6,10 +6,53 @@
 
 .container
 {
-    width: 1140px;
+    width: 1000px;
     margin: 0 auto;
 }
+.main-header
+{
+    margin-top: 30px;
+}
+.main-header img
+{
+    width: 50px;
+    height: 60px;
+    float: left;
+}
 
+.main_navigation__items li
+{
+    display: inline;
+    overflow: auto;
+}
+
+.main_navigation__items li a 
+{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+.main_navigation__items li a:hover
+{
+    color: #fd8be6;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+.main-navigation
+{
+    padding: 20px 0;
+    margin-left: 200px;
+}
+.main_navigation__item.color a
+{
+    color: #fd8be6;
+}
+/* salom */
 
 
 
